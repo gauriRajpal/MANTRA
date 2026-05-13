@@ -45,6 +45,7 @@ A rigorous cleaning pipeline was implemented to improve model convergence and pe
 To handle the "Out-of-Vocabulary" (OOV) problem common in morphologically rich Indic languages, the project employs **SentencePiece**:
 * **Sub-word Units**: Words are decomposed into smaller, meaningful units to handle rare tokens effectively.
 * **Model Training**: A unigram sub-word model was trained on the filtered datasets and applied to create the sub-worded corpora.
+* Models are available in:  https://huggingface.co/GauriRajpal/NMT
 
 ### 4. Neural Network Training
 The system utilizes the **Transformer architecture** implemented via the **OpenNMT** framework:
